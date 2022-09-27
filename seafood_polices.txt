@@ -1,0 +1,16 @@
+titre Volkov
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+h2 Roboto 400
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Volkhov&display=swap');
+
+h3 Satisfy
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Volkhov&display=swap');
+
+p Roboto 300
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Volkhov&display=swap');
+

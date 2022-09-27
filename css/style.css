@@ -1,0 +1,306 @@
+/***STYLE***/
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Volkhov&display=swap');
+h1 {
+    font-family: "Volkhov", serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #fafafa;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: "Satisfy", sans-serif;
+}
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p {
+    font-family: "Roboto", sans-serif;
+}
+a {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover {
+    color: #9fc9dd;
+    text-decoration: none;
+}
+.txt-white {
+    color: #fafafa;
+}
+.txt-blue {
+    color: #9fc9dd;
+}
+.sub-title {
+    font-size: 53px;
+    letter-spacing: 1px;
+}
+.current {
+        border-radius: 0;
+        border-color: #9fc9dd;
+        color: #9fc9dd;
+}
+.nav-item a:hover {
+    color: #9fc9dd;
+}
+.nav-link:focus, 
+.nav-link:hover {
+    color:#9fc9dd;
+}
+.btn-nav {
+    border-radius: 0;
+    border-color: #9fc9dd;
+    color: #9fc9dd;
+}
+.col-750 {
+    height: 750px;
+}
+.rating {
+    width: 100px;
+}
+.p-100 {
+    padding: 100px 0;
+}
+.btn-page {
+    border-radius: 1rem;
+    background-color: #282525;
+    text-transform: uppercase;
+    margin: 50px 20px;
+    padding: 5px 10px;
+}
+.border-radius-none {
+    border-radius: 0;
+}
+.card-link {
+    color: black;
+    text-decoration: underline;
+}
+.card-link a:hover {
+    color: #9fc9dd;
+}
+.small-line-height {
+    line-height: 1;
+}
+.small-font-size {
+    font-size: 60%;
+}
+/***HOME***/
+/*Section header*/
+.section-img-1 {
+    background-image: url("../images/slideshow-25.jpg");
+    background-color: black;
+    overflow: hidden;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.accueil {
+    height: 849px;
+}
+.txt-deco {
+    font-size: 30px;
+    padding: 3px;
+    border-top: solid #fafafa 3px;
+    border-bottom: solid #fafafa 3px;
+    line-height: 1em;
+    margin: 0 20px;
+}
+/*section about us*/
+.section-bc-1 {
+    background-image: url("../images/about-us-bg.png");
+    background-color: 0, 0, 0, 0.5;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.about {
+    padding: 75px 0;
+}
+.frame {
+    background-color:#282525;
+    z-index: 100;
+}
+.dbl-border {
+    background-color: #282525;
+    min-height: 500px;
+    max-width: 500px;
+    border: solid #fafafa 1px;
+}
+.about-photo-1 {
+    margin-left: 120px;
+}
+.about-photo-2 {
+    margin-left: -100px;
+}
+/*section specialities*/
+.section-img-2 {
+    background-image: url("../images/special-bg.jpg");
+    background-color: black;
+    overflow: hidden;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.card-stars {
+    border: 0;
+    width: 18rem;
+}
+/*section our food menu*/
+.frame-2 {
+    background-image: url("../images/our-menu-bg-5.jpg");
+    background-color: black;
+    overflow: hidden;
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.dbl-border-2 {
+    background-color: transparent;
+    border: solid #fafafa 1px;
+    margin: 5px;
+}
+.column {
+    flex-direction: column;
+}
+.encart {
+    padding: 75px 20px 100px 450px;
+}
+.square {
+    margin: 50px 30px;
+}
+/*Section Opening Time*/
+.section-img-3 {
+    background-color: #282525;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.logo-1 {
+    background-image: url("../images/opening-bg.png");
+    overflow: hidden;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+    font-size: 38px;
+}
+.logo-2 {
+    max-width:20px;
+    margin-right: 15px;
+}
+.frame-3 {
+    background-color:#282525;
+    max-width: 60px;
+    min-height: 60px;
+}
+/*section latest news*/
+.frame-4 {
+    background-color: #282525;
+    max-width: 50px;
+    min-height: 40px;
+}
+/*footer*/
+.logo-3 {
+    margin-top: -80px;
+}
+/***PAGE***/
+
+/***MENU***/
+
+/***RESERVATION***/
+
+/***BLOG***/
+
+/***SHOP***/
+
+/***ABOUT***/
+
+/*MEDIA QUERIES*/
+/*générique petits écrans*/
+@media screen and (max-width:992px) {
+    .responsive-display-none {
+        display: none !important;
+    }
+    .responsive-padding {
+        padding: 1rem;
+    }
+    .container {
+        padding: 0;
+        width: auto;
+    }
+    .card {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .encart {
+        padding: 0;
+    }
+    .square {
+        margin: 0;
+    }
+    .col-md-3 {
+        margin: 0;
+    }
+    .p-100 {
+        display: none;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .col-md-6,
+    .col-md-4,
+    .col-md-3 {
+        width: 100%;
+    }
+    .square {
+        display: flex;
+        padding: 1rem;
+    }
+}
+/* Téléphones */
+@media screen and (min-width:577px) and (max-width:768px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+/* Tablettes */
+@media screen and (min-width:769px) and (max-width:992px) {
+
+}
+/* Ordinateurs */
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+}
+/* Ecrans larges */
+@media screen and (min-width:1201px) and (max-width:1400px) {
+
+}
+/* Ecrans très grands */
+@media screen and (min-width:1401px) {
+
+}
